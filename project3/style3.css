@@ -1,0 +1,58 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.p1{
+    background-image: url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?size=626&ext=jpg&ga=GA1.1.2082370165.1716249600&semt=sph);
+    min-height: 100%;
+
+}
+.p2{
+    background-image: url(https://images.unsplash.com/photo-1585016495481-91613a3ab1bc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bmF0dXJhbHxlbnwwfHwwfHx8MA%3D%3D);
+    min-height: 400px;
+}
+.p3{
+    background-image: url(https://plus.unsplash.com/premium_photo-1700143162587-5c09d6e3eece?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%3D%3D);
+    min-height: 400px;
+}
+.p1,.p2,.p3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.ptext{
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 251, 0);
+    font-size: 27px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.textbg{
+    /* background-color: rgba(39, 9, 147, 0.387); */
+    padding: 20px;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+
+}
+.s1{
+    background-color: rgba(17, 255, 0, 0.312);
+}
+.s2{
+    background-color: aqua;
+}
+.s3{
+    background-color: beige;
+}
